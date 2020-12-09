@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_principal"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_view_bg">
+
+
+    <RelativeLayout
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/txt_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:textSize="24sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/circle"
+            android:gravity="center"
+            tools:text="F" />
+
+
+        <TextView
+            android:id="@+id/txt_nome"
+            android:textColor="@color/darkerGray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/txt_icon"
+            android:layout_alignTop="@id/txt_icon"
+            tools:text="Facebook" />
+
+        <TextView
+            android:id="@+id/txt_conteudo"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:textColor="@color/darkerGray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_nome"
+            android:layout_alignStart="@id/txt_nome"
+            android:textSize="16sp"
+            android:layout_marginStart="16dp"
+            tools:text="Conteudo:" />
+
+        <TextView
+            android:id="@+id/txt_data_atual"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:textColor="@color/darkerGray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_conteudo"
+            android:layout_alignStart="@id/txt_nome"
+            android:textSize="12sp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="150dp"
+            tools:text="Data atual:" />
+
+        <TextView
+            android:id="@+id/txt_data_prev"
+            android:layout_width="150dp"
+            android:layout_height="22dp"
+            android:textSize="12sp"
+            android:layout_alignEnd="@id/txt_data_atual"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="0dp"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:textColor="@color/darkerGray"
+            tools:text="Data prevista:" />
+
+
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "602096048418",
+    "firebase_url": "https://lembretesatc.firebaseio.com",
+    "project_id": "lembretesatc",
+    "storage_bucket": "lembretesatc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602096048418:android:10c8b8a2706955fdb8ad7b",
+        "android_client_info": {
+          "package_name": "com.LembretesVictor.projeto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602096048418-uqq7e0meqfd8anoctoo7pb10eaji0olq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGIGwQzUsZdoNfQNWG42X7zPcNgQKGaUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602096048418-uqq7e0meqfd8anoctoo7pb10eaji0olq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
